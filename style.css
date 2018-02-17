@@ -1,0 +1,75 @@
+/* ----------Header------- */
+#headimg {
+  background-image: url(Header.png);
+  background-size: 800px 400px; }
+
+#header {
+  height: auto;
+  clear: both; }
+  #header img {
+    height: auto;
+    max-width: 100%;
+    width: auto\9;
+    border-bottom-style: solid;
+    border-width: 0px 0px 3px 0px;
+    border-color: #f4c57c;
+    margin-bottom: 60px; }
+
+/* ----------Navigation Bar------ */
+.active {
+  background-color: #879fc6; }
+
+nav ul {
+  list-style-type: none;
+  background-color: #6fb2cf;
+  overflow: hidden; }
+  nav ul li {
+    float: left;
+    background-color: #6fb2cf; }
+    nav ul li a {
+      font-size: 20px;
+      display: block;
+      text-decoration: none;
+      text-align: center;
+      overflow: hidden;
+      padding: 6px 6px;
+      color: #eff6fc; }
+      nav ul li a:hover {
+        background-color: #787776; }
+        nav ul li a:hover:visited {
+          color: #eff6fc; }
+
+/* -----------Body---------- */
+body {
+  background-color: #eff6fc; }
+
+div {
+  line-height: normal; }
+  div br {
+    display: block;
+    content: "";
+    margin-top: 0; }
+
+.button {
+  text-align: center;
+  background-color: #88A9FC;
+  border: none;
+  padding: 15px;
+  width: 200px;
+  border-radius: 10px;
+  font-size: 20px;
+  color: #2b92b5; }
+  .button:hover {
+    background-color: #f4c57c;
+    color: #88A9FC; }
+
+/* -----------Pictures----------*/
+#menupic {
+  float: left;
+  height: auto;
+  width: auto;
+  padding-left: 60px;
+  padding-bottom: 30px;
+  padding-right: 20px; }
+
+/*# sourceMappingURL=style.css.map */
